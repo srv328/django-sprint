@@ -46,12 +46,15 @@ posts = [
 
 def index(request):
     template_name = 'blog/index.html'
-    return render(request, template_name)
+    context = {'posts': posts}
+    return render(request, template_name, context)
 
 
 def post_detail(request, id):
+    post = posts[id]
     template_name = 'blog/detail.html'
-    return render(request, template_name)
+    context = {'post': post}
+    return render(request, template_name, context)
 
 
 def category_posts(request, category_slug):
