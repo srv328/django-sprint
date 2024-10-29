@@ -8,7 +8,7 @@ Blogicum is a simple blogging application built with Django. It allows users to 
 
 1. **Clone the repository:**
    ```bash
-   [git clone https://github.com/your_username/blogicum.git](https://github.com/srv328/django-sprint.git)
+   https://github.com/srv328/django-sprint.git
    ```
 
 2. **Navigate to the project directory:**
